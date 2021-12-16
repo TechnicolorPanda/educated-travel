@@ -1,0 +1,23 @@
+[
+    {
+     "left": 706, 
+     "right": 436,
+     "bottom": 4,
+     "top": 276,
+     "probability": 2
+    },
+    {
+      "left": 706, 
+      "right": 436,
+      "bottom": 436,
+      "top": 706,
+      "probability": 3
+    },
+    {
+      "left": 276, 
+      "right": 4,
+      "bottom": 436,
+      "top": 706,
+      "probability": 1
+    }
+  ]

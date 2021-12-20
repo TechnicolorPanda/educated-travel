@@ -1,5 +1,4 @@
-
-  const defineSectors = require('./sectors.json');
+const defineSectors = require('./sectors.json');
 
 const sector = (x, y) => {
     for (i = 0; i < defineSectors.length; i++) {

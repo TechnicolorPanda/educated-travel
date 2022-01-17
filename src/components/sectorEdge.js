@@ -9,22 +9,22 @@ const edge = (x1, y1, x2, y2) => {
   let nextSector;
   let previousSector;
 
-  for (i = 0; i < 5; i++) {
+  for (let i = 0; i < 5; i++) {
     nextSector = sector(lineCoordinates[i].x, lineCoordinates[i].y);
-    previousSector = sector(lineCoordinates[i-1].x, lineCoordinates[i-1].y);
+    if (i > 0) {
+      previousSector = sector(lineCoordinates[i-1].x, lineCoordinates[i-1].y);
+    }
 
     // Check to see if the sector values are different for adjacent coordinates
-    if (nextSector !== previousSector) {
+    if (nextSector !== previousSector && previousSector >= 0) {
       if (nextSector !== 0) {
         edgeCoordinates.push({x: lineCoordinates[i].x, y: lineCoordinates[i].y});
       } else {
         edgeCoordinates.push({x: lineCoordinates[i-1].x, y: lineCoordinates[i-1].y})
       }
     }
-    return previousSector;
   }
-  // return edgeCoordinates;
-
+  return edgeCoordinates;
 };
 
 module.exports = {edge};

@@ -1,15 +1,14 @@
 const {line} = require('../components/coordinatesOfLine');
 const {sector} = require('../components/findSector');
 
-let edgeCoordinates = [];
-
 const edge = (x1, y1, x2, y2) => {
+  let edgeCoordinates = [];
   const lineCoordinates = line(x1, y1, x2, y2);
   const numberOfCoordinates = lineCoordinates.length;
   let nextSector;
   let previousSector;
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 1; i < numberOfCoordinates; i++) {
     nextSector = sector(lineCoordinates[i].x, lineCoordinates[i].y);
     if (i > 0) {
       previousSector = sector(lineCoordinates[i-1].x, lineCoordinates[i-1].y);

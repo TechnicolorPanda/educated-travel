@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("console.log('Running');\n\n//# sourceURL=webpack://educated-travel/./src/index.js?");
+eval("//import page modules\n\n// import { sector } from './components/findSector.js';\n\ninitiatePage();\n\nfunction initiatePage() {\n\n  //load home page\n\n  const contentSection = document.querySelector(\"#content\");\n \n}\n\n\n\n//# sourceURL=webpack://educated-travel/./src/index.js?");
 
 /***/ })
 

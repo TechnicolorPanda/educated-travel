@@ -1,0 +1,100 @@
+/* standard style reset */
+html,
+body,/* standard style reset */
+html,
+body,
+header,
+nav,
+h1,
+a,
+ul,
+li,
+strong,
+main,
+button,
+i,
+section,
+img,
+div,
+h2,
+h3,
+h4,
+h5,
+p,
+form,
+fieldset,
+label,
+input,
+textarea,
+span,
+article,
+footer,
+time,
+small,
+aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  color: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  vertical-align: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  background-color: black;
+}
+
+h1 {
+  font-size: 68px;
+  font-family: "Quattrocento", serif;
+  color: rgb(49, 9, 158);
+  text-align: center;
+  text-shadow: 0 0 2.5px white, 0 0 5px whitesmoke;
+  border-style: none;
+  border-width: 0px;
+  border-color: #ccc;
+  border-radius: 0%;
+  margin-top: 50px;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: serif;
+  color: rgb(48, 4, 4);
+  text-align: center;
+  text-shadow: 0 0 10px white;
+  border-style: none;
+  border-width: 0px;
+  border-color: #ccc;
+  border-radius: 0%;
+  margin-top: 50px;
+}
+
+#content {
+  background-color: black;
+  margin: 5%;
+  width: 90%;
+  text-align: left;
+  font-size: 24px;
+  color: white;
+  padding: 10px;
+  position: relative;
+  justify-content: space-evenly;
+  border: 10px;
+  border-radius: 1%;
+}
+
+#tabs {
+  background-color: black;
+  width: 100%;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  justify-content: space-evenly;
+  border: 10px;
+  border-color: rgb(51, 14, 2);
+}

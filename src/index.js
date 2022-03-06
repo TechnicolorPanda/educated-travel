@@ -9,6 +9,6 @@ function initiatePage() {
   //load home page
 
   const contentSection = document.querySelector("#content");
- 
+
 }
 

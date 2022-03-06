@@ -98,3 +98,25 @@ h2 {
   border: 10px;
   border-color: rgb(51, 14, 2);
 }
+
+label {
+  color:rgb(49, 9, 158);
+  padding: 5px;
+}
+
+input {
+  color: red;
+  padding: 2px;
+}
+
+div {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+#submit {
+  width: 10%;
+  text-align: center;
+  margin-right: 45%;
+  margin-left: 45%;
+}
